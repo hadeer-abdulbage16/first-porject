@@ -1,0 +1,194 @@
+body{
+     
+     margin: 0;
+     padding: 0;
+     
+}
+.hero{
+    background-image: url(../images/bg-hero-desktop.svg);
+    
+    
+}
+.hero  img{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+.hero  button{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.839);
+  width: 180px;  
+    height: 40px;
+    border: 1px solid white;
+    float: right;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+button:hover{
+    width: 200px;
+    
+}
+.hero2{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 1300px;
+    margin-left:50px ;
+}
+.hero2 img{
+    width:600px;
+      
+    float: right;
+    margin-top: 40px;
+   
+    
+}
+
+.hero2 h1{
+    margin-top: 100px;
+    font-size: 50px;
+
+}
+.hero2 nav p{
+    font-size: 18px;
+}
+.hero2 nav button{
+    background-color: hsl(322, 100%, 66%);
+    width: 200px;
+    border-radius: 40px;
+    height: 40px;
+    border: 1px solid white;
+    float: left;
+    
+}
+.hero2  button:hover{
+    width: 190px;
+    background-color: hsl(208, 11%, 55%);
+    transition: all 0.5s;
+}
+.page1{
+    margin-top: 70px;
+   
+    align-items: center;
+    display: block;
+    justify-content: center;
+    overflow: hidden;
+    margin: 80px;
+    border: 3px solid white;
+    box-shadow: 1px 1px 1px 1px black;
+    height: 200px
+}
+    .page1:hover{
+        width: 1100px;
+        background-color: rgba(244, 248, 247, 0.496);
+        opacity: 0.5;
+        transition: 0.2s;
+    }
+
+.page1  img{
+    width: 20%;
+    float: right;
+    margin-right: 10px;
+    
+}
+.page1  h1{
+    padding-left: 5px;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.page1 p{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.diffrent{
+    margin-top: 60px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 70px;
+    border: 3px solid white;
+    box-shadow: 1px 1px 1px 1px black;
+    height: 200px;
+    direction: rtl;
+    padding: 0;
+}
+.diffrent:hover{
+    width: 1000px;
+    background-color: rgba(244, 248, 247, 0.496);
+    opacity: 0.5;
+    transition: 0.2s ;
+    
+}
+.diffrent img{
+    width: 25%;
+    float: left;
+    margin-left: 30px;
+    
+}
+.diffrent h1{
+  padding-left: 60px;
+  font-size: 25px;
+float: left;
+}
+.diffrent p{
+  float: right;
+  font-size: 20px;
+  padding-left: 20px;
+
+}
+.last-sec{
+   height:150px;
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    justify-content: center;
+    width: 1350px;
+    margin-top: 200px;
+}
+.last-sec .boxx{
+    width: 400px;
+     height: 150px;
+background-color: white;
+position: relative;
+bottom: 100px;
+text-align: center;
+border-radius: 20px;
+box-shadow: 1px 1px 1px 1px;
+}
+.last-sec .boxx button{
+    background-color: hsl(322, 100%, 66%);
+    width: 40%;
+    margin-top: 10px;
+    border-radius: 20px;
+    border:  1px solid white;
+    height: 30px;
+    font-size: 15px;
+}
+.last-sec  button:hover{
+    width: 190px;
+    background-color: hsl(208, 11%, 55%);
+    transition: all 0.5s;
+
+}
+
+.end{
+    background-color:hsl(192, 100%, 9%) ;
+padding-bottom: 50px;
+align-items: center;
+}
+
+.end img{
+    display: inline;
+    padding:10px ;
+}
+.end a{
+    padding: 10px;
+    
+   color: white;
+}
+
